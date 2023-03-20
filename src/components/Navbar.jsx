@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex justify-between items-center navbar mb-4 py-4 sm:mb-[20px] sm:px-[20px] px-[60px] fixed top-0 z-40 right-0 border-b border-slate-300/10 backdrop-blur bg-transparent">
+    <nav className="w-full flex justify-between items-center navbar mb-8 py-4 sm:mb-[20px] sm:px-[20px] px-[60px] fixed top-0 z-40 right-0 border-b border-slate-300/10 backdrop-blur bg-transparent">
       <img src={logo} alt="Hoobank" className="w-[125px] h-[35px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
